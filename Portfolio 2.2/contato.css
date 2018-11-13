@@ -1,6 +1,6 @@
 body{
 	margin: 0px 0px 0px 0px;
-	width: 1299px;
+	width: 100%;
 	background-color: #FF9300;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -11,8 +11,7 @@ body{
 .header{
 	background-color: #B26700;
 	position: relative;
-	left: -50px;
-	width: 1349px;
+	width: 100%;
 }
 #logo{
 	height: 240px;
@@ -27,6 +26,32 @@ body{
 	right: 40px;
 	font-size: 30px;
 }
+.b1:hover {
+	animation: texto;
+	animation-duration: 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+}
+.b2:hover {
+	animation: texto;
+	animation-duration: 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+}
+.b3:hover {
+	animation: texto;
+	animation-duration: 0.5s;
+	animation-direction: alternate;
+	animation-iteration-count: infinite;
+
+}
+@keyframes texto{
+	100%{
+		font-size: 32px;
+	}
+}
 li{
 	list-style: none;
 	margin-right: 35px;
@@ -37,15 +62,13 @@ li a {
 	font-style: oblique;
 }
 .rodape{
-	width: 1349px;
+	width: 100%;
 	margin: 0px 0px 0px 0px;
 	background-color: black;
 	height: 160px;
 	color: white;
 }
 .separar{
-	margin-left: 30px;
-	margin-right: 30px;
 }
 .autoral{
 	text-align: center;

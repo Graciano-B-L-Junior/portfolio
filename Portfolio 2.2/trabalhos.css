@@ -8,33 +8,10 @@ body{
 	margin-left: 50px;
 	height: 1000px;
 }
-
 .header{
 	background-color: #B26700;
 	position: relative;
-	width: 100%;
-}
-#logo{
-	height: 240px;
-	width: 240px;
-}
-.menu{
-	display: flex;
-	padding: 0px 0px 0px 0px;
-	margin: 0px 0px 0px 0px;
-	position: absolute;
-	top: 80px;
-	right: 40px;
-	font-size: 30px;
-}
-li{
-	list-style: none;
-	margin-right: 35px;
-	
-}
-li a {
-	text-decoration: none;
-	font-style: oblique;
+	width:100%;
 }
 .b1:hover {
 	animation: texto;
@@ -57,96 +34,94 @@ li a {
 	animation-iteration-count: infinite;
 
 }
-
-
-
 @keyframes texto{
 	100%{
 		font-size: 32px;
 	}
 }
-.img1, .img2{
-
+#logo{
+	height: 240px;
+	width: 240px;
 }
-
-.t1, .t2,.t3{
-	width: 350px;
-	margin-left: 60px;
-}
-.t1{
-	position: relative;
-	left: 160px;
-	top: -140px;
-}
-.t2,.t3{
-	position: relative;
-	left: 160px;
-	top: -180px;
-}
-.img3{
-	position: relative;
-	top: -150px;
-}
-.i3{
-	top: -50px;
-	left: 180px;
-	position: relative;
+.menu{
+	display: flex;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	position: absolute;
+	top: 80px;
+	right: 40px;
+	font-size: 30px;
 }
 
 .Trabalhos{
 	position: relative;
-	left: 650px;
-	top: -740px;
-	width: 400px;
-	margin: 0px 0px 0px 0px;
-	border: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	}
-.mySlides{
-	position: absolute;
-	width: 430px;
-	height: 300px;
-	top:18px;
-	left: 40px;
+	height: 1000px;
 }
-.t4{
+.mySlides{
+	top: 40px;
+	left: 120px;
+	width: 590px;
+	height: 405px;
 	position: relative;
-	top: -170px;
-	left:85px;
-	width: 370px;
 }
 .w3-circle{
 	background-color: black;
-	font-size: 12px;
-	width: 40px;
-	height: 40px;
+	font-size: 22px;
+	width: 60px;
+	height: 60px;
 	border-radius: 50%;
 	color: white;
 }
-
-#direita,#esquerda{
+.img3{
+	width: 700px;
+	height: 700px;
 	position: relative;
+	top: -480px;
+	left: -73px;
+}
+.i3{
+	position: relative;
+	left: 280px;
+	font-size: 40px;
+	width: 200px;
 	margin: 0px 0px 0px 0px;
 }
+.txt4{
+	position: relative;
+	top: -950px;
+	left: 894px;
+	font-size: 22px;
+	width: 360px;
+}
+#direita,#esquerda{
+	position: relative;
+	top: -800px;
+}
 #direita{
-	top: 120px;
-	right: -488px;
+	left: 703px;
 }
 #esquerda{
-	left: -58px;
-	top: 120px;
+	left: -20px;
 }
-
+li{
+	list-style: none;
+	margin-right: 35px;
+	
+}
+li a {
+	text-decoration: none;
+	font-style: oblique;
+}
 .rodape{
 	width: 100%;
 	margin: 0px 0px 0px 0px;
 	background-color: black;
 	height: 160px;
 	color: white;
+	position: relative;
+	top: 10px;
 }
 .separar{
-	margin-left: 30px;
-	margin-right: 30px;
 }
 .autoral{
 	text-align: center;
@@ -177,4 +152,3 @@ ul li p{
 	position: relative;
 	left:60px;
 }
-
